@@ -80,6 +80,8 @@
 		A3BF05D4297E3AF400261260 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
+				A390312E297E3C7C004471F4 /* Player.swift */,
+				A390312C297E3C4D004471F4 /* Ocean.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -87,8 +89,6 @@
 		A3BF05D5297E3AFC00261260 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A390312C297E3C4D004471F4 /* Ocean.swift */,
-				A390312E297E3C7C004471F4 /* Player.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
