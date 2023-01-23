@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A390312D297E3C4D004471F4 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390312C297E3C4D004471F4 /* Ocean.swift */; };
 		A390312F297E3C7C004471F4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390312E297E3C7C004471F4 /* Player.swift */; };
+		A3903131297E3D23004471F4 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903130297E3D23004471F4 /* GameObject.swift */; };
+		A3903133297E3D4F004471F4 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903132297E3D4F004471F4 /* GameProtocol.swift */; };
 		A3BF05BE297E3ABA00261260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BF05BD297E3ABA00261260 /* AppDelegate.swift */; };
 		A3BF05C0297E3ABA00261260 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3BF05BF297E3ABA00261260 /* GameScene.sks */; };
 		A3BF05C2297E3ABA00261260 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = A3BF05C1297E3ABA00261260 /* Actions.sks */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		A390312C297E3C4D004471F4 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		A390312E297E3C7C004471F4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		A3903130297E3D23004471F4 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		A3903132297E3D4F004471F4 /* GameProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		A3BF05BA297E3ABA00261260 /* MAPD724-ICE1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-ICE1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3BF05BD297E3ABA00261260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3BF05BF297E3ABA00261260 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -89,6 +93,8 @@
 		A3BF05D5297E3AFC00261260 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A3903130297E3D23004471F4 /* GameObject.swift */,
+				A3903132297E3D4F004471F4 /* GameProtocol.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -168,9 +174,11 @@
 			files = (
 				A390312D297E3C4D004471F4 /* Ocean.swift in Sources */,
 				A3BF05C4297E3ABA00261260 /* GameScene.swift in Sources */,
+				A3903131297E3D23004471F4 /* GameObject.swift in Sources */,
 				A3BF05C6297E3ABA00261260 /* GameViewController.swift in Sources */,
 				A390312F297E3C7C004471F4 /* Player.swift in Sources */,
 				A3BF05BE297E3ABA00261260 /* AppDelegate.swift in Sources */,
+				A3903133297E3D4F004471F4 /* GameProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

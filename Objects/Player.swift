@@ -5,10 +5,14 @@
 //  Created by Himanshu on 2023-01-22.
 //
 
+import Foundation
+import GameplayKit
+import SpriteKit
+
 class Player : GameObject {
     // initializer
     init() {
-        super.init(imageString: "plane", initialScale: 2.0)
+        super.init(imageString: "plane1", initialScale: 2.0)
         Start()
     }
     
