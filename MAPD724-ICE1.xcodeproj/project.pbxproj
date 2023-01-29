@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A34A89B22986D6B500187394 /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A89B12986D6B500187394 /* Island.swift */; };
 		A34A89B42986D6EB00187394 /* Layers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A89B32986D6EB00187394 /* Layers.swift */; };
+		A34A89B62986D76200187394 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34A89B52986D76200187394 /* Cloud.swift */; };
 		A390312D297E3C4D004471F4 /* Ocean.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390312C297E3C4D004471F4 /* Ocean.swift */; };
 		A390312F297E3C7C004471F4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A390312E297E3C7C004471F4 /* Player.swift */; };
 		A3903131297E3D23004471F4 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3903130297E3D23004471F4 /* GameObject.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		A34A89B12986D6B500187394 /* Island.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		A34A89B32986D6EB00187394 /* Layers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layers.swift; sourceTree = "<group>"; };
+		A34A89B52986D76200187394 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		A390312C297E3C4D004471F4 /* Ocean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean.swift; sourceTree = "<group>"; };
 		A390312E297E3C7C004471F4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		A3903130297E3D23004471F4 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				A390312E297E3C7C004471F4 /* Player.swift */,
 				A390312C297E3C4D004471F4 /* Ocean.swift */,
 				A34A89B12986D6B500187394 /* Island.swift */,
+				A34A89B52986D76200187394 /* Cloud.swift */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				A3BF05C4297E3ABA00261260 /* GameScene.swift in Sources */,
 				A34A89B22986D6B500187394 /* Island.swift in Sources */,
 				A3903131297E3D23004471F4 /* GameObject.swift in Sources */,
+				A34A89B62986D76200187394 /* Cloud.swift in Sources */,
 				A3BF05C6297E3ABA00261260 /* GameViewController.swift in Sources */,
 				A390312F297E3C7C004471F4 /* Player.swift in Sources */,
 				A3BF05BE297E3ABA00261260 /* AppDelegate.swift in Sources */,
