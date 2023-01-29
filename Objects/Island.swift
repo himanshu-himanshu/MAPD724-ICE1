@@ -43,6 +43,8 @@ class Island : GameObject {
         // get a pseudo random number -313 to 313
         let randomX:Int = (randomSource?.nextInt(upperBound: 626))! - 313
         position.x = CGFloat(randomX)
+//        let randomY:Int = (randomSource?.nextInt(upperBound: 626))! - 313
+//        position.y = CGFloat(randomY)
         isColliding = false
     }
     

@@ -22,7 +22,9 @@ class Cloud : GameObject {
     // LifeCylce Functions
     override func Start() {
         zPosition = Layers.cloud.rawValue
-        alpha = 0.5 // 50% transparent
+        
+        // Set opacity to random between 0 & 1
+        alpha = Double.random(in: 0...1)
         Reset()
     }
     
@@ -59,5 +61,6 @@ class Cloud : GameObject {
     func Move() {
         position.x -= horizontalSpeed!
         position.y -= verticalSpeed!
+       
     }
 }

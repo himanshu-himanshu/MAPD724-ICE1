@@ -19,6 +19,8 @@ class GameScene: SKScene {
     var ocean1 : Ocean?
     var ocean2 : Ocean?
     var player : Player?
+    var island : Island?
+    var clouds : [Cloud] = []
     
     override func sceneDidLoad() {
         screenWidth = frame.width
@@ -42,6 +44,17 @@ class GameScene: SKScene {
         player = Player()
         player?.Start()
         addChild(player!)
+        
+        // add the island to the scene
+        island = Island()
+        addChild(island!)
+        
+        // add 3 clouds to the scene
+        for _ in 0...2 {
+            let cloud: Cloud = Cloud()
+            clouds.append(cloud)
+            addChild(cloud)
+        }
     }
     
     
@@ -79,5 +92,12 @@ class GameScene: SKScene {
         ocean1?.Update()
         ocean2?.Update()
         player?.Update()
+        
+        island?.Update()
+        
+        // update each cloud in clouds
+        for cloud in clouds {
+            cloud.Update()
+        }
     }
 }
